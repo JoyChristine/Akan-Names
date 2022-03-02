@@ -1,14 +1,19 @@
 *{
     font-family: 'Ubuntu', sans-serif;
+    margin:0%;
+    
 }
 body{
-    /* background-image:url('assets/background.jpg'); */
+    margin:0%;
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
 }
 .akan{
     font-weight: 300;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
-    
-    
-    
+#form{
+    margin-top: 2%;
 }

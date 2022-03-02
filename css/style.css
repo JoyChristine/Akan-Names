@@ -14,6 +14,12 @@ body{
     font-weight: 300;
     font-family: 'Playfair Display', serif;
 }
+.details{
+    margin-top: 5%;
+}
 #form{
     margin-top: 2%;
+    font-size: large;
+    
+    
 }

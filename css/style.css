@@ -1,8 +1,14 @@
 *{
     font-family: 'Ubuntu', sans-serif;
 }
-.form-group{
+body{
+    /* background-image:url('assets/background.jpg'); */
+}
+.akan{
+    font-weight: 300;
+    font-family: 'Noto Sans JP', sans-serif;
+}
     
-    width:25vw;
+    
     
 }

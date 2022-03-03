@@ -32,5 +32,16 @@ function calculateDay () {
 
 
 //output should be based on gender
+function checkGender() {
+    var gender = document.getElementsByName("gender");
+    if(gender[0].checked === true){
+        var gender = male;
+    }else if (gender[1].checked === true){
+        var gender = female;
+    }else {
+        return false
+    }
+}
+
 
 

@@ -55,36 +55,39 @@
     </div>
    
     <form id ="form" style="width: 50%;">
-        <div class="form-group row">
-          <label for="inputYear" class="col-sm-2 col-form-label">Year</label>
+        
+      <div class="form-group row">
+        <label for="inputMonth" class="col-sm-2 col-form-label">Month</label>
           <div class="col-sm-6">
-            <input type="number" class="form-control" id="inputYear" placeholder="Year of birth">
+            <input type="number" class="form-control" id="inputMonth" placeholder="MM" required>
           </div>
-        </div>
-        <div class="form-group row">
-          <label for="inputMonth" class="col-sm-2 col-form-label">Month</label>
+      </div>
+      <div class="form-group row">
+        <label for="inputDay" class="col-sm-2 col-form-label">Day</label>
           <div class="col-sm-6">
-            <input type="number" class="form-control" id="inputMonth" placeholder="Month">
+            <input type="number" class="form-control" id="inputDay" placeholder="DD" required>
           </div>
-        </div>
-        <div class="form-group row">
-            <label for="inputDay" class="col-sm-2 col-form-label">Day</label>
-            <div class="col-sm-6">
-              <input type="number" class="form-control" id="inputDay" placeholder="Day">
-            </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputYear" class="col-sm-2 col-form-label">Year</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="inputYear" placeholder="YY" required>
           </div>
+          </div>
+      </div>
+
         <fieldset class="form-group">
           <div class="row">
             <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
             <div class="col-sm-3">
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="option1" checked required>
                 <label class="form-check-label" for="gridRadios1">
                   Male
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <input class="form-check-input" type="radio" name="gender" id="gridRadios2" value="option2" required>
                 <label class="form-check-label" for="gridRadios2">
                   Female
                 </label>
@@ -96,9 +99,11 @@
         
         <div class="form-group row">
           <div class="col-sm-3">
+            <!--  -->
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </div>
+        <h3 id="result">Results</h3>
       </form>
     </div>
 
@@ -115,5 +120,7 @@
         <label for="javascript">Female</label><br>
         <input type="submit" value="Submit">
     </form> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

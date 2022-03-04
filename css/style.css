@@ -23,5 +23,11 @@ body{
     font-size: large;
     
 }
-  
+
+#result{
+    background-color: yellow;
+    font-size: 5vw;
+    font-family: 'Ubuntu';
+    font-style: italic;
+}  
 

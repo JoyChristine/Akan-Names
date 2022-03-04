@@ -39,9 +39,67 @@ function checkGender() {
     }else if (gender[1].checked === true){
         var gender = female;
     }else {
-        return false
+        return false;
     }
 }
+// main caller func
+function checkDayOfWeek (){
+    day = calculateDay();
+    checkGender();
+}
+//SWITCH
+switch(gender) {
+    case gender = "male":
+    switch(day){
+        case (0 || -0):
+            document.getElementById("result").innerHTML = "You were born on Sunday"+ "&" + "Your Akan name is" + maleNames[0];
+        break;
+        case (1 || -1):
+            document.getElementById("result").innerHTML = "You were born on Monday"+ "&" + "Your Akan name is" + maleNames[1];
+        break;
+        case (2 || -2):
+            document.getElementById("result").innerHTML = "You were born on Tuesday"+ "&" + "Your Akan name is" + maleNames[2];
+        break;
+        case (3 || -3):
+            document.getElementById("result").innerHTML = "You were born on Wednesday"+ "&" + "Your Akan name is" + maleNames[3];
+        break;
+        case (4 || -4):
+            document.getElementById("result").innerHTML = "You were born on Thursday"+ "&" + "Your Akan name is" + maleNames[4];
+        break;
+        case (5 || -5):
+            document.getElementById("result").innerHTML = "You were born on Friday"+ "&" + "Your Akan name is" + maleNames[5];
+        break;
+        case (6 || -6):
+            document.getElementById("result").innerHTML = "You were born on Saturday"+ "&" + "Your Akan name is" + maleNames[6];
+        break;
 
+    }
+    case gender = "female":
+    switch(day){
+        case (0 || -0):
+            document.getElementById("result").innerHTML = "You were born on Sunday"+ "&" + "Your Akan name is" + femaleNames[0];
+        break;
+        case (1 || -1):
+            document.getElementById("result").innerHTML = "You were born on Monday"+ "&" + "Your Akan name is" + femaleNames[1];
+        break;
+        case (2 || -2):
+            document.getElementById("result").innerHTML = "You were born on Tuesday"+ "&" + "Your Akan name is" + femaleNames[2];
+        break;
+        case (3 || -3):
+            document.getElementById("result").innerHTML = "You were born on Wednesday"+ "&" + "Your Akan name is" + femaleNames[3];
+        break;
+        case (4 || -4):
+            document.getElementById("result").innerHTML = "You were born on Thursday"+ "&" + "Your Akan name is" + femaleNames[4];
+        break;
+        case (5 || -5):
+            document.getElementById("result").innerHTML = "You were born on Friday"+ "&" + "Your Akan name is" + femaleNames[5];
+        break;
+        case (6 || -6):
+            document.getElementById("result").innerHTML = "You were born on Saturday"+ "&" + "Your Akan name is" + femaleNames[6];
+        break;
+
+    }
+}
+break;
 
 

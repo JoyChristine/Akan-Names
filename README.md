@@ -25,12 +25,12 @@ Friday: Afua
 Saturday: Ama
 
  ## Live Page
-https://joychristine.github.io/Portfolio-Landing-Page/
+https://joychristine.github.io/Akan-Names/
 
  ## Installation / Setup instruction
 Open Terminal {Ctrl+Alt+T}
 
-git clone https://joychristine.github.io/Portfolio-Landing-Page/
+git clone https://joychristine.github.io/Akan-Names/
 
 cd Portfolio-Landing-Page
 

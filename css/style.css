@@ -4,16 +4,22 @@
     
 }
 body{
-    margin:0%;
+   
     background-image: url("../assets/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     overflow-x: hidden;
+    cursor: pointer;
+    
     
 }
 .akan{
     font-weight: 300;
     font-family: 'Playfair Display', serif;
+}
+.card-body p {
+    font-size: 1.4vw;
+    /* font-family: 'Playfair Display', serif; */
 }
 .details{
     margin-top: 5%;
@@ -23,11 +29,16 @@ body{
     font-size: large;
     
 }
-
+.btn .btn-primary{
+    border: 0ch;
+}
 #result{
-    background-color: yellow;
-    font-size: 5vw;
-    font-family: 'Ubuntu';
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
+    margin: 0%;
+    margin-top: 2%;
 }  
 

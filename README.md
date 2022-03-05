@@ -15,7 +15,7 @@ Thursday:  Yaw<br/>
 Friday: Kofi<br/>
 Saturday: Kwame<br/>
 
-# Female<br/>
+### Female<br/>
 Sunday: Akosua<br/>
 Monday: Adwoa<br/>
 Tuesday: Abenaa<br/>

@@ -1,28 +1,78 @@
- : Kwasi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Playfair+Display:ital,wght@1,460;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <!--animate__bounce  -->
+    <!-- <h1 class="animate__animated animate__flash">An animated element</h1> -->
+    <h1 class="animate__animated animate__bounceInRight">AKAN NAMES</h2>
+   <button style="border: none;background:none;">
+    <a href ="index.html" class="btn btn-primary btn-md">Home</a>
+   </button> 
+       
+    <!-- form -->
+    <div class="details">
+        <p>Enter your details below to find out your Akan Name</p>
+    </div>
+    <form id ="form" style="width: 50%;">
+      <div class="form-group row">
+        <label for="inputDay" class="col-sm-2 col-form-label">Day</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="day" placeholder="DD" required min="1"
+                  max="31">
+          </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputMonth" class="col-sm-2 col-form-label">Month</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="month" placeholder="MM" required min="1"
+                  max="12">
+          </div>
+      </div>
+        
+        
+        <div class="form-group row">
+        <label for="inputDay" class="col-sm-2 col-form-label">Day</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="year" placeholder="Enter year" required
+                  min="1900" max="2022">
+          </div>
+      </div>
+            
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+          <div class="col-sm-3">
+              <input type="radio" name="gender" id="male" value="male" checked> Male
+              <input type="radio" name="gender" id="female" value="female"> Female
+          </div>
+          </div>
+        </div>
+      </fieldset>      
+            
+      <a onclick="akanNames()" class="btn btn-primary" style=" margin-left:2%;">Submit</a>
+      <br>
+      <button type="reset" class="btn btn-outline-danger" style="margin-top:3%;margin-left:2%;">Reset</button>
+      <h2 id="output"></h2>
+    </form>
+   
+  </div>
 
-Monday: Kwadwo
-
-Tuesday: Kwabena
-
-Wednesday: Kwaku
-
-Thursday:  Yaw
-
-Friday: Kofi
-
-Saturday: Kwame
-
-Female
- : Akosua
-
-Monday: Adwoa
-
-Tuesday: Abenaa
-
-Wednesday: Akua
-
-Thursday:  Yaa
-
-Friday: Afua
-
-Saturday: Ama
+  <script src="js/script.js"></script>
+</body>
+</html>

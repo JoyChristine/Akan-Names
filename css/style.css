@@ -4,7 +4,6 @@
     
 }
 body{
-   
     background-image: url("../assets/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -12,7 +11,20 @@ body{
     cursor: pointer;
     margin:0%;
     
-    
+
+}
+@media screen and (max-width: 580px) {
+    body{
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+    cursor: pointer;
+    margin:0%
+    }
+}
+.home{
+
 }
 .akan{
     font-weight: 300;
@@ -33,9 +45,11 @@ body{
 }
 .btn .btn-primary{
     border: 0ch;
+    margin-left:2%;
 }
-#result{
-    background-color: antiquewhite;
+#output{
+    /* background-color: antiquewhite; */
+    color: white;
     cursor: pointer;
     font-size: 4vw;
     font-family: 'Roboto', sans-serif;

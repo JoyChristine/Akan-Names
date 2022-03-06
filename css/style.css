@@ -10,6 +10,7 @@ body{
     background-size: 100%;
     overflow-x: hidden;
     cursor: pointer;
+    margin:0%;
     
     
 }
@@ -27,6 +28,7 @@ body{
 #form{
     margin-top: 2%;
     font-size: large;
+    margin-left:2%;
     
 }
 .btn .btn-primary{

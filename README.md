@@ -34,7 +34,7 @@ git clone https://joychristine.github.io/Akan-Names/
 
 cd Akan-Names
 
-code . or atom . depending on the text editor of your choise.
+code . or atom . depending on the text editor of your choice.
 
  ## Technologies Used
 * HTML
